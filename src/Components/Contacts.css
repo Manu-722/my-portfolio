@@ -1,0 +1,40 @@
+.contacts {
+    max-width: 600px;
+    margin: 3rem auto;
+    padding: 2rem;
+    background-color: #fef6d8;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    color: #333;
+    text-align: center;
+  }
+  
+  .contacts h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .contacts p {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+  
+  .contacts ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contacts li {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+  }
+  
+  .contacts a {
+    color: #336699;
+    text-decoration: none;
+  }
+  
+  .contacts a:hover {
+    text-decoration: underline;
+  }
+  
