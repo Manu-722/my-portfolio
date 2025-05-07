@@ -18,3 +18,92 @@ header {
   margin: 0 auto;
   padding: 20px;
 }
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: rgb(62, 164, 201);
+  color: rgb(255, 255, 255);
+}
+header {
+  text-align: center;
+  margin-top: 2rem;
+}
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+.navbar {
+  background-color: rgb(80, 129, 72);
+  padding: 15px 0;
+}
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.nav-links li {
+  display: inline-block;
+  position: relative;
+}
+.nav-links li a {
+  color: azure;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+.nav-links li a::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background: rgb(151, 91, 91);
+  transition: width 0.4s ease, left 0.4s ease;
+}
+.nav-links li a:hover::after {
+  width: 100%;
+  left: 0%;
+}
+.gallery {
+  margin-top: 2rem;
+  text-align: center;
+}
+.gallery-container {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.contacts {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 20px;
+  background-color: palegoldenrod;
+  color: black;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.about-me {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
